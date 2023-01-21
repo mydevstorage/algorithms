@@ -12,8 +12,6 @@ class Solution(object):
 
 class Solution2:
     def maxDepth(self, root):
-        if not root:
-            return 0
         depth = 0
         queue = deque([root])
         while queue:
